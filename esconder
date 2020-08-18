@@ -1,0 +1,105 @@
+<script type="text/javascript"> 
+jQuery(document).ready(function() {
+// ocultar el contenido
+jQuery('#curso1').hide();
+jQuery('.boton1').click(function(e){
+e.preventDefault();jQuery("#curso1").slideToggle();
+  jQuery('#curso2').hide();
+  jQuery('#curso3').hide();
+  jQuery('#curso4').hide();
+  jQuery('#curso5').hide();
+  jQuery('#curso6').hide();
+  jQuery('#curso7').hide();
+jQuery('.boton1').toggleClass('opened closed');
+});
+});
+<script type="text/javascript"> 
+jQuery(document).ready(function() {
+// ocultar el contenido
+jQuery('#curso2').hide();
+jQuery('.boton2').click(function(e){
+e.preventDefault();jQuery("#curso2").slideToggle();
+  jQuery('#curso1').hide();
+  jQuery('#curso3').hide();
+  jQuery('#curso4').hide();
+  jQuery('#curso5').hide();
+  jQuery('#curso6').hide();
+  jQuery('#curso7').hide();
+jQuery('.boton2').toggleClass('opened closed');
+});
+});
+<script type="text/javascript"> 
+jQuery(document).ready(function() {
+// ocultar el contenido
+jQuery('#curso3').hide();
+jQuery('.boton3').click(function(e){
+e.preventDefault();jQuery("#curso3").slideToggle();
+  jQuery('#curso1').hide();
+  jQuery('#curso2').hide();
+  jQuery('#curso4').hide();
+  jQuery('#curso5').hide();
+  jQuery('#curso6').hide();
+  jQuery('#curso7').hide();
+jQuery('.boton3').toggleClass('opened closed');
+});
+});
+<script type="text/javascript"> 
+jQuery(document).ready(function() {
+// ocultar el contenido
+jQuery('#curso4').hide();
+jQuery('.boton4').click(function(e){
+e.preventDefault();jQuery("#curso4").slideToggle();
+  jQuery('#curso1').hide();
+  jQuery('#curso2').hide();
+  jQuery('#curso3').hide();
+  jQuery('#curso5').hide();
+  jQuery('#curso6').hide();
+  jQuery('#curso7').hide();
+jQuery('.boton4').toggleClass('opened closed');
+});
+});
+<script type="text/javascript"> 
+jQuery(document).ready(function() {
+// ocultar el contenido
+jQuery('#curso5').hide();
+jQuery('.boton5').click(function(e){
+e.preventDefault();jQuery("#curso5").slideToggle();
+  jQuery('#curso1').hide();
+  jQuery('#curso2').hide();
+  jQuery('#curso3').hide();
+  jQuery('#curso4').hide();
+  jQuery('#curso6').hide();
+  jQuery('#curso7').hide();
+jQuery('.boton5').toggleClass('opened closed');
+});
+});
+<script type="text/javascript"> 
+jQuery(document).ready(function() {
+// ocultar el contenido
+jQuery('#curso6').hide();
+jQuery('.boton6').click(function(e){
+e.preventDefault();jQuery("#curso6").slideToggle();
+  jQuery('#curso1').hide();
+  jQuery('#curso2').hide();
+  jQuery('#curso3').hide();
+  jQuery('#curso4').hide();
+  jQuery('#curso5').hide();
+  jQuery('#curso7').hide();
+jQuery('.boton6').toggleClass('opened closed');
+});
+});
+<script type="text/javascript"> 
+jQuery(document).ready(function() {
+// ocultar el contenido
+jQuery('#curso7').hide();
+jQuery('.boton7').click(function(e){
+e.preventDefault();jQuery("#curso7").slideToggle();
+  jQuery('#curso1').hide();
+  jQuery('#curso2').hide();
+  jQuery('#curso3').hide();
+  jQuery('#curso4').hide();
+  jQuery('#curso5').hide();
+  jQuery('#curso6').hide();
+jQuery('.boton7').toggleClass('opened closed');
+});
+});
